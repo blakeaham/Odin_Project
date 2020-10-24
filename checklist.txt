@@ -2,7 +2,7 @@ CURRENTLY WORKING - 10/22
 FCC Responsive Web Design // TOP "HTML and CSS Basics"
 
 *Basic HTML and HTML 5 ✅ 10/23
-*Basic CSS (44)
+*Basic CSS (36/44)
 *Applied Visual Design (52)
 *Applied Accessibility (22)
 *Responsive Web Design Principles (4)
