@@ -1,0 +1,28 @@
+CURRENTLY WORKING - 10/22
+FCC Responsive Web Design // TOP "HTML and CSS Basics"
+
+*Basic HTML and CSS ✅ 10/23
+*Basic CSS (44)
+*Applied Visual Design (52)
+*Applied Accessibility (22)
+*Responsive Web Design Principles ()
+
+-Learning Outcomes
+
+    Why do we separate HTML and CSS? **HTML is organizational, while CSS is for Styling
+    What are classes and IDs (and how are they different)?**Labels for HTML elements, classes are for groups and 'categories' while IDs are for SPECIFIC ELEMENTS
+    What are elements? items, usually denoted by tags in an HTML documents
+    What are tags? the <tag></tag> of each element
+    What are attributes?
+    What are forms?
+    What is a div?
+    What are selectors?
+    What are properties?
+    What are values?
+    What is the “query string” in a URL and what does it do?
+    What is the difference between “pixels” and “ems”?
+    How do CSS styles for a particular element get inherited? i.e. how does an element get its “default” styles?
+    What are two CSS attributes you can change to push an element around on the page?
+    What are the three different ways to include CSS in your project or use CSS to style a particular element?
+    What is the “default stylesheet” or “user agent stylesheet”?
+    Why use a CSS reset file?
