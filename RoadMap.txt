@@ -1,0 +1,25 @@
+THE ODIN PROJECT
+    -Web Dev 101-
+        *Basics ✅
+        *Installations ✅
+        *Git Basics ✅
+        *Front End
+        *JS Basics
+        *Back End
+        *Tying it all Together
+
+    -Full Stack JS-
+
+COURSERA
+    -Google IT Support Cert ✅ complete - 10/21
+        *Support Fundamentals ✅
+        *OS SuperUser ✅
+        *Networking ✅
+        *SysAdmin & IT Infrastructure ✅
+        *Cyber Security ✅
+
+    -IBM Cybersecurity Analyst Professional Certificate
+        *Intro to CyberSec Tools & Cyber Attacks
+        *CyberSec Roles, Processes & Operationg System Security
+        *CyberSec Compliance Framework & SysAdmin
+        *Network Security & Database Vulnerabilities
