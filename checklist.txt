@@ -6,7 +6,7 @@ FCC Responsive Web Design // TOP "HTML and CSS Basics"
 *Applied Visual Design ✅ - fin 10/25
 *Applied Accessibility ✅ - fin 10/27
 *Responsive Web Design Principles ✅ - fin 10/27
-*CSS Flexbox(17)
+*CSS Flexbox ✅ - fin 10/28
 *CSS Grid (22)
 *Responsive Web Design Projects (5) **OPTIONAL**
 
