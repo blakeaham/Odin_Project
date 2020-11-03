@@ -10,6 +10,9 @@ FCC Responsive Web Design // TOP "HTML and CSS Basics"
 *CSS Grid ✅ - fin 11/1
 *Responsive Web Design Projects (5) **OPTIONAL**
 
+**GOOGLE HOMEPAGE PROJECT**
+11/3 - Working on Grid Layout. 
+
 -Learning Outcomes-
 
     Why do we separate HTML and CSS? **HTML is organizational, while CSS is for Styling
