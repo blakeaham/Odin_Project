@@ -42,6 +42,8 @@
             justify-items: center;
         }
         .mainimage {
+            display: grid;
+            justify-items: center;
             grid-area: mainimage;
         }
         .searchbar{
@@ -51,14 +53,14 @@
         .searchclick {
             grid-area: searchclick;
             align-self: center;
+            justify-self: end;
         }
         .other {
             grid-area: other;
             align-self: center;
+            justify-self: start;
         }
         .mainimage > img {
-            padding-left: auto;
-            padding-right: auto;
             max-width: 100%;
             max-height: 100%;
         }
@@ -79,7 +81,7 @@
     </div>
 
     <div class ="main">
-        <div class="mainimage"><img src="cooble.png">COOBLE</div>
+        <div class="mainimage"><img src="cooble.png"></div>
         <div class="searchbar"><input type="text" id="squery" name="squery" placeholder="Type Search Here!"></div>
         <div class="searchclick">search now</div>
         <div class="other">lucky</div>
