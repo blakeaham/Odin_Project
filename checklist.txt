@@ -7,7 +7,7 @@ FCC Responsive Web Design // TOP "HTML and CSS Basics"
 *Applied Accessibility ✅ - fin 10/27
 *Responsive Web Design Principles ✅ - fin 10/27
 *CSS Flexbox ✅ - fin 10/28
-*CSS Grid (22)
+*CSS Grid ✅ - fin 11/1
 *Responsive Web Design Projects (5) **OPTIONAL**
 
 -Learning Outcomes-
