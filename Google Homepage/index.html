@@ -6,11 +6,12 @@
             height: 95vh;
             width: 98vw;
             display: grid;
-            grid-template-rows: 12.5% 12.5% 50% 12.5% 12.5%;
+            grid-template-rows: 12.5% 12.5% 50% 12.5% auto 5%;
             grid-template-areas:
             "header"
             "."
             "main"
+            "."
             "."
             "footer";
 
@@ -22,13 +23,42 @@
             grid-template-columns: 20% auto 20%;            
             justify-items: center;
         }
+        
+        .lefthead {
+            display: grid;
+            width: 100%;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+        }
+
+        .righthead {
+            display: grid;
+            width: 100%;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+        }
 
         .footer {
             grid-area: footer;
             display: grid;
-            grid-template-columns: 20% auto 20%;
-            justify-items: center;
-            align-self: end;
+            grid-template-columns: auto auto auto;
+            justify-items: space-evenly;
+            align-items: end;
+            background-color: rgb(241, 241, 241);
+        }
+
+        .rightfoot {
+            display: grid;
+            width: 100%;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
+        }
+
+        .leftfoot {
+            display: grid;
+            width: 100%;
+            grid-template-columns: auto  auto auto;
+            justify-content: space-evenly;
         }
         .main {
             grid-area: main;
@@ -42,6 +72,8 @@
             justify-items: center;
         }
         .mainimage {
+            display: grid;
+            align-items: center;
             grid-area: mainimage;
         }
         .searchbar{
@@ -50,10 +82,17 @@
         }
         .searchclick {
             grid-area: searchclick;
+            display: grid;
+            background-color: rgb(241, 241, 241);
+            padding: 1em;
+            justify-self: end;
             align-self: center;
         }
         .other {
             grid-area: other;
+            background-color: rgb(241, 241, 241);
+            padding: 1em;
+            justify-self: start;
             align-self: center;
         }
         .mainimage > img {
@@ -73,22 +112,42 @@
 <body>
     <div class="supergrid">
     <div class="header"> 
-        <div class="lefthead">art</div>
+        <div class="lefthead">
+            <a href="about">About</a>
+            <a href="store">Store</a>
+        </div>
         <div></div>
-        <div class="righthead">gmail</div>
+        <div class="righthead">
+            <a href="gmail">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+            <a href="https://www.google.com/intl/en/about/products?tab=wh">㊙</a>
+            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/">💁</a>
+        </div>
     </div>
 
     <div class ="main">
-        <div class="mainimage"><img src="cooble.png">COOBLE</div>
+        <div class="mainimage"><img src="cooble.png"></div>
         <div class="searchbar"><input type="text" id="squery" name="squery" placeholder="Type Search Here!"></div>
-        <div class="searchclick">search now</div>
-        <div class="other">lucky</div>
+        <div class="searchclick">
+            <a href="search">Search Now</a>
+        </div>
+        <div class="other">
+            <a href="lucky">I'm Feeling Lucky</a>
+        </div>
     </div>
 
     <div class="footer">
-       <div class="leftfoot">advert</div>
+       <div class="leftfoot">
+        <a href="advertising">Advertising</a>
+        <a href="Business">Business</a>
+        <a href="about">How Search Works</a>
+       </div>
        <div></div>
-       <div class="rightfoot">privacy</div>
+       <div class="rightfoot">
+        <a href="privacy">Privacy</a>
+        <a href="terms">Terms</a>
+        <a href="settings">Settings</a>
+       </div>
     </div>
     </div>
 </body>
